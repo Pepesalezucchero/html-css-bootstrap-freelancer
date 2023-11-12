@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Esercizio Bootstrap</title>
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <nav>
+
+                <!--navigation bar-->
+                <section class="ms_nav_color">
+
+                    <div class="container-fluid" id="ms_nav_height">
+
+                        <div class="navbar navbar-expand-md">
+
+                            <div class="container-fluid">
+
+                                <a class="navbar-brand" href="#"><h5 class="text-light"><strong>START BOOTSTRAP</strong></h5></a>
+
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                                    <ul class="navbar-nav mb-2 mb-lg-0">
+
+                                        <li class="nav-item">
+                                        <a class="nav-link active text-light" aria-current="page" href="#"><strong>PORTFOLIO</strong></a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                        <a class="nav-link active text-light" aria-current="page" href="#"><strong>ABOUT</strong></a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                        <a class="nav-link active text-light" aria-current="page" href="#"><strong>CONTACT</strong></a>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!--jumbotron-->
+                <section class="ms_jumbotron">
+
+                    <div class="container">
+
+                        <div class="row justify-content-center">
+
+                            <div class="col-6 d-flex justify-content-center">  
+                                <img class="ms_image_style" src="img/avatar.svg" alt="foto avatar">
+                            </div>
+
+                        </div>
+
+                        <h1 class="text-center text-light mt-4"><strong>START BOOTSTRAP</strong></h1>
+
+                        <p class="text-center text-light mt-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+
+                    </div>
+
+                </section>
+
+            </nav>
+
+        </header>
+
+        <main>
+
+            <!--portfolio-->
+            <section class="ms_portfolio">
+
+                <h2 class="text-center mt-5 mb-5"><strong>PORTFOLIO</strong></h2>
+
+                <div class="ms_portfolio_container">
+
+                    <div class="row gx-3 gy-4">
+
+                        <div class="col-12 col-md-6 col-lg-4">  
+                            <img class="img-fluid rounded" src="img/cabin.png" alt="foto avatar">
+                        </div>
+                        
+                        <div class="col-12 col-md-6 col-lg-4">  
+                            <img class="img-fluid rounded" src="img/cake.png" alt="foto avatar">
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">  
+                            <img class="img-fluid rounded" src="img/circus.png" alt="foto avatar">
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">  
+                            <img class="img-fluid rounded" src="img/game.png" alt="foto avatar">
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">  
+                            <img class="img-fluid rounded" src="img/safe.png" alt="foto avatar">
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">  
+                            <img class="img-fluid rounded" src="img/submarine.png" alt="foto avatar">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!--about-->
+            <section class="ms_about">
+
+                <h2 class="text-center text-light mt-5 pt-5 pb-5"><strong>ABOUT</strong></h2>
+
+                <div class="ms_about_container">
+
+                    <div class="row gx-4 gy-4">
+
+                        <div class="col-12 col-md-6">  
+
+                           <p class="text-light">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete souce files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+
+                        </div>
+
+                        <div class="col-12 col-md-6">  
+                            
+                            <p class="text-light">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="text-center mt-3 pb-5">
+                        <button type="button" class="btn btn-outline-light"><span id="ms_font_emergenza"></span> Download</button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+
+            <!--contact me-->
+            <section class="ms_contact_me">
+
+                <h2 class="text-center mt-5 pb-5"><strong>CONTACT ME</strong></h2>
+
+                <div class="ms_contact_container">
+
+                    <form action="#" method="post">
+
+                        <div>
+
+                            <span class="d-block">Name</span>
+                            <input name="Name" class="border border-top-0 border-end-0 border-start-0 w-100" type="text">
+                            <span class="d-block mt-2">Email Address</span>
+                            <input name="Email-address" class="border border-top-0 border-end-0 border-start-0 w-100" type="text">
+                            <span class="d-block mt-2">Phone Number</span>
+                            <input name="Phone-number" class="border border-top-0 border-end-0 border-start-0 w-100" type="text">
+                            <span class="d-block mt-2">Message</span>
+                            <textarea class="border border-top-0 border-end-0 border-start-0 w-100" name="message" cols="30" rows="4"></textarea>
+
+                            <button id="ms_button_color" class="btn btn-success mt-3 mb-5 ms-1 border-0">Send</button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </section>
+
+            <!--ending info-->
+            <section class="ms_ending_page pt-5">
+
+                <div class="ms_ending_container">
+
+                    <div class="row gx-4 gy-4">
+
+                        <div class="col-12 col-md-4">
+
+                            <span class="d-block text-center text-light mb-2 ms_font_size">LOCATION</span>
+                            <span class="d-block text-center text-light">2215 Daniel Drive Clark, MO 54243</span>
+
+                        </div>
+
+                        <div class="col-12 col-md-4">  
+                            
+                            <span class="d-block text-center text-light mb-2 ms_font_size">AROUND THE WEB</span>
+
+                            <div class="text-center">
+
+                                <span><a class="text-light border rounded-circle" href="#">F</a></span>
+                                <span><a class="text-light border rounded-circle" href="#">G</a></span>
+                                <span><a class="text-light border rounded-circle" href="#">T</a></span>
+                                <span><a class="text-light border rounded-circle" href="#">I</a></span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 col-md-4">  
+
+                            <span class="d-block text-center text-light mb-2 ms_font_size">ABOUT FREELANCER</span>
+                            <span class="d-block text-center mb-5 text-light">Freelance is a free to use, open source Bootstrap theme created by <span id="ms_color_green">Start Bootstrap</span>.</span>
+                            
+                         </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="row gx-4 gy-4 mt-5 pt-2 pb-5 ms_ending_copyright">
+
+                    <div class="col-12">  
+
+                       <p class="text-center text-light ">Copyright C Your Website 2019</p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </footer>
+
+    </body>
+
+</html>

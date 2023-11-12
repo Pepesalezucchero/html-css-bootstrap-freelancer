@@ -1,0 +1,161 @@
+/*nav-bar*/
+
+.ms_nav_color {
+    background-color: #2c3e50;
+}
+
+#ms_nav_height {
+    min-height: 65px;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+#ms_white {
+    color: white;
+}
+
+/*jumbotron*/
+
+.ms_jumbotron {
+    background-color: #1abc9c;
+    min-height: 500px;
+}
+.ms_jumbotron h1 {
+    font-size: 40px;
+}
+
+.ms_jumbotron p {
+    font-size: 20px;
+}
+
+.ms_jumbotron ul {
+    list-style-type: none;
+}
+
+.ms_image_style {
+    background-color: #1abc9c;
+    border: none;
+    margin-top: 20px;
+    width: 270px;
+}
+
+/*tablet-desktop jumbotron*/
+
+@media all and (min-width: 767px) {
+
+    .ms_jumbotron h1 {
+        font-size: 50px;
+    }
+}
+
+/*portfolio*/
+
+.ms_portfolio_container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.ms_portfolio_container h2 {
+    font-size: 28px;
+}
+
+/*about*/
+
+.ms_about {
+    background-color: #1abc9c;
+}
+
+.ms_about_container, .ms_contact_container {
+    width: 65%;
+    margin: auto;
+}
+
+#ms_font_emergenza {
+    margin: 0 5px;
+    padding: 5px 15px;
+    background-color: white;
+}
+
+.ms_about h2 {
+    font-size: 28px;
+}
+
+.ms_about p, .ms_contact_me span, .ms_contact_me button, .ms_ending_page span {
+    font-size: 18px;
+}
+
+/*contact me*/
+
+#ms_button_color {
+    background-color: #1abc9c;
+}
+
+/*ending page*/
+
+.ms_ending_page {
+    background-color: #3a546d;
+}
+
+.ms_ending_container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.ms_ending_page a {
+    text-decoration: none;
+    padding: 2px 10px;
+}
+
+#ms_color_green {
+    color: #1abc9c;
+}
+
+.ms_ending_copyright {
+    background-color: #2c3e50;
+}
+
+/*copyright*/
+
+.ms_ending_copyright {
+    width: 100%;
+    margin: auto;
+}
+
+.ms_ending_copyright p {
+    font-size: 14px;
+}
+
+ /*tablet*/
+
+@media all and (min-width: 767px) {
+
+    .ms_portfolio_container {
+        width: 85%;
+    }
+
+    .ms_portfolio_container h2, .ms_about h2 {
+        font-size: 38px;
+    }
+
+    .ms_ending_container {
+        width: 80%;
+    }
+
+    .ms_ending_page .ms_font_size {
+        font-size: 20px;
+    }
+}
+/*desktop*/
+
+@media all and (min-width: 991px) {
+
+    .ms_portfolio_container {
+        width: 80%;
+    }
+
+    .ms_ending_container {
+        width: 70%;
+    }
+}
